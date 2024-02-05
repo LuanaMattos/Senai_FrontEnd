@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Conversor de Moedas - Prof. Anthony Freitas</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+	<div class="degrade">
+		<div class="outer-container">
+			<div class="social-icons">
+				<a href="https://www.linkedin.com/in/luana-souza-mattos/" target="_blank"> <i
+						class="fab fa-linkedin"></i></a>
+				<a href="https://github.com/LuanaMattos" target="_blank"><i class="fab fa-github"></i></a>
+				<a href="https://www.instagram.com/luanamattos13/" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href="mailto:luanamattospt@gmail.com?subject=Fale%20Conosco"><i class="far fa-envelope"></i></a>
+				<a href="https://wa.me/5521991849989" target="_blank" class="whatsapp-link"><i
+						class="fab fa-whatsapp"></i></a>
+			</div>
+		</div>
+		<div class="conversorMoedas">
+			<h2 align="center">Conversor de Moedas</h2>
+
+			<label for="valor">Digite o valor em reais:</label>
+			<input type="number" id="valor" placeholder="Digite o valor em reais">
+
+			<label for="moeda">Escolha a moeda:</label>
+			<select id="moeda">
+				<option value="USD">Dólar (USD)</option>
+				<option value="EUR">Euro (EUR)</option>
+				<option value="GBP">Libra Esterlina (GBP)</option>
+				<option value="JPY">Iene (JPY)</option>
+				<option value="ARS">Peso Argentino (ARS)</option>
+			</select>
+			<br>
+			<button id="convertButton">Converter</button>
+			<div class="result-container">
+				<div id="result"></div>
+				<button id="clean" onclick="reset()">Limpar</button>
+			</div>
+		</div>
+		<!-- <div class="result-container">
+		<div id="result"></div>
+	</div> -->
+
+
+	</div>
+	<script src="./js/script.js"></script>
+	<footer>
+		Desenvolvido por <a href="https://github.com/LuanaMattos">Luana Mattos</a> sob
+		orientação do Professor <a href="https://github.com/sammyfreitas">Anthony Freitas</a>. Todos
+		os Direitos reservados Curso de Programador Front-End, <a
+			href="https://www.firjansenai.com.br/cursorio/portal/index.php">Senai</a>, 2023 &#169;
+	</footer>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+.degrade {
+    background-image: linear-gradient(45deg, rgb(118, 110, 110), rgb(73, 73, 70));
+    height: 100vh;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.calculadora {
+    position: absolute;
+    background-color: #696969;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50% -50%);
+    /*irá da um pequeno zoo e volta*/
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+    margin: 3px;
+    transition: 0.5s
+}
+
+.botao:hover {
+    background-color: black;
+    border: 2px solid rgb(190, 190, 230);
+    background-color: rgb(201, 219, 228);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#resultado {
+    background-color: white;
+    width: 210px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    text-align: right;
+    color: black;
+    font-size: 25px;
+}
+
+footer {
+    background: #2c2045;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+a:visited {
+    color: darkgrey;
+}
+
+a:hover {
+    color: white;
+    background-color: darkgrey;
+}
+
+.outer-container {
+    background: rgb(31, 31, 31);
+    /* Cor de fundo */
+    padding: 20px;
+    /* Espaçamento interno */
+    border-radius: 10px;
+    /* Valor do raio do arredondamento */
+    overflow: hidden;
+    /* Garante que as bordas arredondadas se apliquem corretamente */
+    box-shadow: 10px 10px 10px gray;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: rgb(119, 255, 0);
+    /* Ou a cor desejada para o hover */
+    border: 3px solid #e0dcdc;
+}

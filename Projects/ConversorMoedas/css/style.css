@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 5px;
+  background-image: url(https://guiadossolteiros.com/wp-content/uploads/2021/09/dolar.jpg);
+}
+
+h2 {
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input,
+select {
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+  background-color: rgb(31, 31, 31);
+  border: none;
+  color: rgb(255, 255, 255);
+  margin: 3px;
+  box-shadow: 0 0 10px rgb(253, 104, 45);
+}
+
+#convertButton {
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+  background-color: rgb(31, 31, 31);
+  border: none;
+  color: white;
+  margin: 30px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgb(198, 253, 45);
+
+}
+
+#clean {
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+  background-color: rgb(31, 31, 31);
+  border: none;
+  color: white;
+  margin: -30px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgb(198, 253, 45);
+
+}
+
+button:hover {
+  background-color: black;
+  color: #FFFF00;
+}
+
+.degrade {
+  margin-top: 80px;
+  height: 92vh;
+  color: #FFFF00;
+  font-family: Comic Sans Ms;
+  text-align: center;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(104, 104, 109);
+  padding: 20px;
+  border-radius: 0px;
+}
+
+.outer-container {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(104, 104, 109);
+  /* Cor de fundo */
+  padding: 20px;
+  /* Espaçamento interno */
+  border-radius: 10px;
+  /* Valor do raio do arredondamento */
+  overflow: hidden;
+  /* Garante que as bordas arredondadas se apliquem corretamente */
+}
+
+.conversorMoedas {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  background-color: rgb(104, 104, 109);
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.result-container {
+  margin-top: 10px;
+  /*background-color: #f2f2f2;*/
+  padding: 0px;
+  border-radius: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center !important;
+}
+
+footer {
+  background: #2c2045;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+a:visited {
+  color: darkgrey;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #f2cf08;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.social-icons a:hover {
+  color: rgb(244, 216, 7);
+  /* Ou a cor desejada para o hover */
+
+}

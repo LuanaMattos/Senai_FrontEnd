@@ -1,0 +1,117 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .gradient-background {
+    background: linear-gradient(to right, #696969, #cdd3d8);
+    height: 100vh; /* 100% da altura da tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align:center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #e57878;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  button:hover {
+    background-color: #1d0f0f; 
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+  }
+  
+
+  #resultado-container {
+    margin-top: 10px;
+    background-color: #f2f2f2;
+    padding: 0px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .outer-container {
+      background: rgb(31, 31, 31); /* Cor de fundo */
+      padding: 15px; /* Espaçamento interno */
+      border-radius: 10px; /* Valor do raio do arredondamento */
+      overflow: hidden; /* Garante que as bordas arredondadas se apliquem corretamente */
+      box-shadow: 0 0 10px 0 #a0a4a6 inset, 0 0 10px 4px #a0a4a6;
+  }
+  
+  .social-icons {
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px;    
+  }
+  
+  .social-icons a {
+      color: white;
+      font-size: 25px;
+      margin: 0 10px;;
+  }
+  
+  .social-icons a:visited {
+      color: white;
+      font-size: 25px;
+      margin: 0 10px;
+      text-transform: uppercase;
+  }
+  
+  .social-icons a:hover {
+      color: rgb(31, 144, 214)
+  }
+  
+  footer {
+      background: rgb(31, 31, 31);
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px; 
+      overflow: hidden; 
+      box-shadow: 0 0 10px 0 #a0a4a6 inset, 0 0 10px 4px #a0a4a6;
+  }
+  
+  a:visited {
+      color: #e57878;
+  }
+  
+  a:hover {
+      color: rgb(31, 144, 214);
+      /*background-color: darkgrey;*/
+  }
+
+
+
+
+
+  
+
+  

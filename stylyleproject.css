@@ -1,0 +1,60 @@
+
+header {
+    background-color: #f0f8ff;
+  }
+
+  header div {
+    background-color: #7dcbfb;
+    display: flex;
+  }
+
+  .title {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+  }
+
+  .menu a {
+    padding-right: 30px;
+    border-right: 1px solid #00008B;
+    color: #00008B ;
+  }
+
+  .menu .tira {
+    border: none;
+  }
+
+  .menu td {
+    width: 300px;
+  }
+
+  .menu {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    margin: auto;
+    padding: 2px;
+  }
+
+  body {
+    background-color: #8dc0ec;
+  }
+
+  span:hover {
+    color: #00008B;  
+  }
+
+  .wrap {
+    padding-bottom: 65px;
+  }
+
+  main table tr td {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  a {
+    color: rgb(5, 15, 200);
+    text-align: right; 
+  }

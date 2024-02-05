@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(72deg, #f0f0ee 1%, #dfdfc2 99%);
+}
+
+.banner {
+    width: 100%;
+    height: 100%; 
+}
+
+.information {
+    margin-top: -6%;
+    color: maroon;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 1500px;
+    background-color: #e2c092;
+}
+
+.rodape {
+    background-color: rgb(239, 206, 162);
+    flex-direction: column;
+    color: maroon;
+    font-family: 'Courier New', Courier, monospace;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+    margin:  auto;
+    text-align: center;
+    max-width: 1600px;
+    padding: 10px 10px 10px 10px;
+}
+
+.before-footer {
+    background-color: #e2c092;
+    color: maroon;
+    margin-top:80px;
+    padding: 10px 10px 10px 10px;
+}
+
+.contatos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.menu2 {
+    display: flex;
+    width: fit-content;
+    margin-left: 50px;
+}
+
+.menu2 a {
+    display: flex;
+    align-items: center;
+    padding-inline: 30px;
+    color: maroon;
+    height: 80px;
+    font-size: 20px;
+    font-weight: 1000;
+    transition: 0.4s;
+
+}
+
+.imagem1{
+    height: 150px;
+    width: 150px;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.imagem2{
+    height: 150px;
+    width: 150px;
+    margin-right: 10%;
+    margin-top: -10%;
+    margin-left: 10%;
+    cursor: pointer;
+  
+}
+
+.imagem3{
+    height: 150px;
+    width: 150px;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.imagem4{
+    height: 150px;
+    width: 150px;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.imagem5{
+    height: 150px;
+    width: 150px;
+    margin-right: 10%;
+    margin-top: -10%;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.imagem6{
+    height: 150px;
+    width: 150px;
+    margin-right: 10%;
+    margin-top: -10%;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
